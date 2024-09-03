@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7991f1285c51b0146bc723ab8d2296fe, type: 3}
+  m_Name: ResourcesBundle
+  m_EditorClassIdentifier: 
+  MAIN_PREFABS_FOLER_NAME: Prefabs/
+  AUDIO_PREFABS_FOLDER_NAME: Audio/
+  GUI_PREFABS_FOLDER_NAME: GUI/
+  _audioPath:
+  - Type: 1
+    Path: BackgroundSource
+  - Type: 2
+    Path: PrefabPooledSource
+  _screenPath:
+  - Type: 0
+    Path: Canvas
+  - Type: 1
+    Path: GameMenu
+  - Type: 2
+    Path: MainMenu
+  - Type: 3
+    Path: PauseMenu
